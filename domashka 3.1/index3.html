@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREENSHOP Registration</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #f2f2f2; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+    <div style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 300px;">
+        <div style="text-align: center; margin-bottom: 20px;">
+            <h2 style="display: inline; margin-right: 10px; color: #333;">Login</h2>
+            <h2 style="display: inline; color: #4CAF50;">Register</h2>
+        </div>
+
+        <p style="text-align: center; color: #666;">Enter your email and password to register.</p>
+
+        <form action="/submit_registration" method="post">
+            <input type="text" placeholder="Username" style="width: 100%; padding: 6px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 4px;">
+            <input type="email" placeholder="Enter your email address" style="width: 100%; padding: 6px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 4px;">
+            <input type="password" placeholder="Password" style="width: 100%; padding: 6px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 4px;">
+            <input type="password" placeholder="Confirm Password" style="width: 100%; padding: 6px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+            <button type="submit" style="width: 100%; padding: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">Register</button>
+        </form>
+
+        <div style="text-align: center; margin: 20px 0; color: #999;">Or register with</div>
+        <div style="text-align: center; margin-bottom: 10px;">
+
+        <form action="/submit_registration" method="post">  
+            <button type="submit" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; cursor: pointer;">
+                <img src="./гугл.png" alt="Google" style="width: 20px; height: 20px; margin-right: 10px;"> Continue with Google
+            </button>
+            <button type="submit" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; display: flex; align-items: center; justify-content: center; cursor: pointer;">
+                <img src="./фб.png" alt="Facebook" style="width: 20px; height: 20px; margin-right: 10px;"> Continue with Facebook
+            </button>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
